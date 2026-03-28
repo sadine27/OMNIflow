@@ -32,7 +32,7 @@ def Get_Data():
     Master_Data = []
 
     headers = {
-        "CJ-Access-Token" : os.environ.get("CJ-Access-Token")
+        "CJ-Access-Token" : os.environ.get("CJ_Access_Token")
     }
 
     params = {
